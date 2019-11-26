@@ -113,8 +113,15 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="Idea.cpp" />
+    <ClCompile Include="Ideas.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Testing.cpp" />
     <ClCompile Include="TestPractic.cpp" />
+    <ClCompile Include="Writer.cpp" />
+    <ClCompile Include="Writers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestPractic.h" />
@@ -124,6 +131,15 @@
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="TestPractic.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="Idea.h" />
+    <ClInclude Include="Ideas.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Testing.h" />
+    <ClInclude Include="Writer.h" />
+    <ClInclude Include="Writers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

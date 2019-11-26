@@ -1,0 +1,4 @@
+vali fuge de acasa,proposed,Cristina,1
+vali se intalneste cu Ion,accepted,Marin,3
+Ion merge cu vacile,proposed,Ionel,2
+vali moare,proposed,Cristina,3
